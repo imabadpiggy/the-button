@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body {
+    margin: 0;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-areas: "top-left top-mid top-right" "mid-left mid-mid mid-right" "bot-left bot-mid bot-right";
+}
+
+h1 {
+    grid-area: top-mid;
+    text-align: center;
+    align-self: center;
+    opacity: 0;
+    transition: opacity 2s;
+    font-family: 'Nunito', sans-serif;
+}
+
+button#centerButton {
+    grid-area: mid-mid;
+    width: 25rem;
+    height: 25rem;
+    justify-self: center;
+    align-self: center;
+    border-radius: 100%;
+    background-color: rgb(255, 0, 0);
+    border: 0.75rem solid rgb(215, 7, 7);
+    overflow: none;
+    opacity: 0;
+    transition: opacity 5s;
+}
+
+button#centerButton::after {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.199);
+    transform: rotate(45deg) translateY(-182%);
+}

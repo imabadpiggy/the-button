@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "typescript": "^4.5.4"
+    },
+    "scripts": {
+        "start": "npx tsc script.ts -t es6 -w"
+    }
+}
