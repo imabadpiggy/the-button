@@ -1,4 +1,5 @@
 const q = (query) => document.querySelector(query);
+
 const events = [
     () => {
         alert(1);
@@ -10,10 +11,12 @@ const events = [
         // you get the idea just keep adding on to this 
     }
 ];
+
 function getRandom(array) {
     const number = Math.floor(Math.random() * array.length);
     return array[number];
 }
+
 window.addEventListener("load", event => {
     q("#centerButton").style.opacity = "1";
     q("h1").style.opacity = "1";
