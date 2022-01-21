@@ -15,13 +15,29 @@ const events = [
         q("#vineBoom").play();
     },
     () => {
-        document.body.style.backgroundImage = "url(https://i5.walmartimages.com/asr/aab6c643-8504-4b82-9a21-14784426d81d_1.bbadfd6a062bda13151d6486233c516b.jpeg)"
+        document.body.style.backgroundImage = "url(christmas.jpg)"
+        q("#credits").innerHTML = "Photo by one23four56 on Unsplash"
     },
     () => {
         q("#cr").play();
     },
     () => {
         document.body.style.backgroundImage = "url(https://tse4.mm.bing.net/th?id=OIP.q803pWRdNphS0V-YmlHlgAAAAA&pid=Api)"
+        q("#credits").innerHTML = "Dwayne Johnson"
+    },
+    () => {
+        document.body.style.backgroundImage = "url(window.jpg)"
+        q("#credits").innerHTML = "Photo by Bucography on Unsplash"
+    },
+    () => {
+        q('h1').innerText = "jkshdiuashd"
+    },
+    () => {
+        document.body.style.backgroundImage = "url(collage.jpg)"
+        q("#credits").innerHTML = "Photo by one23four56 on Unsplash"
+    },
+    () => {
+        q("#he").play();
     },
 ];
 
@@ -32,6 +48,7 @@ function getRandom(array) {
 
 window.addEventListener("load", event => {
     q("h1").style.opacity = "1";
+    q("h2").style.opacity = "1";
     setTimeout(() => {
         q("#centerButton").style.opacity = "1";
     }, 800);

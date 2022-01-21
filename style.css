@@ -16,6 +16,15 @@ h1 {
     font-family: 'Nunito', sans-serif;
 }
 
+h2 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    opacity: 0;
+    transition: opacity 2s;
+    font-family: 'Nunito', sans-serif;
+}
+
 button#centerButton {
     grid-area: mid-mid;
     width: 25rem;
@@ -30,17 +39,15 @@ button#centerButton {
     transition: opacity 5s, height 0.25s, width 0.25s;
 }
 
-button#centerButton::after {
-    content: "";
-    width: 100%;
-    display: block;
-    height: 15%;
-    background-color: rgba(255, 255, 255, 0.199);
-    transform: rotate(45deg) translateY(-182%);
+body {
+    background-size: 100%;
+    background-position: center;
 }
 
-body {
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
+p#credits {
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
 }
