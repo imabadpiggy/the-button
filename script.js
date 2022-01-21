@@ -2,8 +2,16 @@ const q = (query) => document.querySelector(query);
 
 const events = [
     () => {
-        q("#centerButton").style.backgroundColor = "blue";
-        q("#centerButton").style.borderColor = "darkblue"
+        if (
+            q("#centerButton").style.backgroundColor === "blue" &&
+            q("#centerButton").style.borderColor === "darkblue"
+        ) {
+            q("#centerButton").style.backgroundColor = "rgb(255, 0, 0)";
+            q("#centerButton").style.borderColor = "rgb(215, 0, 0)";
+        } else {
+            q("#centerButton").style.backgroundColor = "blue";
+            q("#centerButton").style.borderColor = "darkblue";
+        }
     },
     () => {
         q("#vineBoom").play();
@@ -13,6 +21,9 @@ const events = [
     },
     () => {
         q("#cr").play();
+    },
+    () => {
+        document.body.style.backgroundImage = "url(https://tse4.mm.bing.net/th?id=OIP.q803pWRdNphS0V-YmlHlgAAAAA&pid=Api)"
     },
 ];
 
