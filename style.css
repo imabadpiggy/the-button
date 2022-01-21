@@ -27,7 +27,7 @@ button#centerButton {
     border: 0.75rem solid rgb(215, 7, 7);
     overflow: none;
     opacity: 0;
-    transition: opacity 5s;
+    transition: opacity 5s, height 0.25s, width 0.25s;
 }
 
 button#centerButton::after {

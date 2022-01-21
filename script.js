@@ -28,5 +28,11 @@ window.addEventListener("load", event => {
     }, 800);
     q("#centerButton").addEventListener("click", event => {
         getRandom(events)();
+        q("#centerButton").style.width = "26rem";
+        q("#centerButton").style.height = "26rem";
+        setTimeout(() => {
+            q("#centerButton").style.width = "25rem";
+            q("#centerButton").style.height = "25rem";
+        }, 250);
     });
 });
