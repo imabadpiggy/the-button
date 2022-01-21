@@ -38,3 +38,9 @@ button#centerButton::after {
     background-color: rgba(255, 255, 255, 0.199);
     transform: rotate(45deg) translateY(-182%);
 }
+
+body {
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
