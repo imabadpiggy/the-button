@@ -1,9 +1,15 @@
 const q = (query) => document.querySelector(query);
 
+function genRandomNumber(max) {
+    return Math.floor(Math.random() * max);
+}
+
 const events = [
     () => {
-        q("#centerButton").style.backgroundColor = "blue";
-        q("#centerButton").style.borderColor = "darkblue"
+        const hue = genRandomNumber(360);
+        const sat = genRandomNumber(100);
+        q("#centerButton").style.backgroundColor = `hsl(${hue}, ${sat}%, 70%)`;
+        q("#centerButton").style.borderColor = `hsl(${hue}, ${sat}%, 60%)`;
     },
     () => {
         q("#vineBoom").play();
@@ -17,7 +23,7 @@ const events = [
 ];
 
 function getRandom(array) {
-    const number = Math.floor(Math.random() * array.length);
+    const number = genRandomNumber(array.length);
     return array[number];
 }
 
