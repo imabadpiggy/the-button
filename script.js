@@ -20,6 +20,9 @@ const events = [
     () => {
         q("#cr").play();
     },
+    () => {
+        document.body.style.backgroundImage = "url(https://tse4.mm.bing.net/th?id=OIP.q803pWRdNphS0V-YmlHlgAAAAA&pid=Api)"
+    },
 ];
 
 function getRandom(array) {
