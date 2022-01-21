@@ -51,3 +51,10 @@ p#credits {
     right: 5%;
     color: white;
 }
+
+h3 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-family: 'Nunito', sans-serif;
+}
