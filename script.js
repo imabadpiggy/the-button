@@ -12,33 +12,22 @@ const events = [
         q("#centerButton").style.borderColor = `hsl(${hue}, ${sat}%, 60%)`;
     },
     () => {
-        q("#vineBoom").play();
-    },
-    () => {
-        document.body.style.backgroundImage = "url(christmas.jpg)"
-        q("#credits").innerHTML = "Photo by one23four56 on Unsplash"
-    },
-    () => {
         q("#cr").play();
     },
     () => {
         document.body.style.backgroundImage = "url(https://tse4.mm.bing.net/th?id=OIP.q803pWRdNphS0V-YmlHlgAAAAA&pid=Api)"
-        q("#credits").innerHTML = "Dwayne Johnson"
-    },
-    () => {
-        document.body.style.backgroundImage = "url(window.jpg)"
-        q("#credits").innerHTML = "Photo by Bucography on Unsplash"
+        q("vine").play();
     },
     () => {
         q('h1').innerText = "jkshdiuashd"
     },
     () => {
-        document.body.style.backgroundImage = "url(collage.jpg)"
-        q("#credits").innerHTML = "Photo by one23four56 on Unsplash"
-    },
-    () => {
         q("#he").play();
     },
+    () => {
+        q("#centerButton").style.backgroundImage = "url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F1077130%2Fscreenshots%2F3524752%2Ffree-youtube-subscribe-button-png-download-by-alfredocreates.jpg%3Fcompress%3D1%26resize%3D400x300&imgrefurl=https%3A%2F%2Fdribbble.com%2Fshots%2F3524752-Free-YouTube-Subscribe-Button-Png-Download&tbnid=TOPsrm1flAhYGM&vet=12ahUKEwjSt7W6r_P1AhXIGc0KHaIqCiUQMygBegUIARDlAQ..i&docid=HdwZ4f8AWx-hIM&w=400&h=300&q=button&hl=en-US&safe=active&ved=2ahUKEwjSt7W6r_P1AhXIGc0KHaIqCiUQMygBegUIARDlAQ)"
+    },
+
 ];
 
 function getRandom(array) {
