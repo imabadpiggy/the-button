@@ -39,13 +39,12 @@ button#centerButton {
     transition: opacity 5s, height 0.25s, width 0.25s;
 }
 
-button#sounds {
+img#sounds {
     grid-area: bot-right;
     width: 75px;
     height: 75px;
     justify-self: center;
     align-self: center;
-    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=5T3LhB5u&id=D1237661AB108BDCDA408ADFCFD261C53D1F215F&thid=OIP.5T3LhB5uFUTh1IkogzIyiwHaHa&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.e53dcb841e6e1544e1d489288332328b%3frik%3dXyEfPcVh0s%252ffig%26riu%3dhttp%253a%252f%252fgetdrawings.com%252fvectors%252fsound-icon-vector-3.png%26ehk%3drAjRj%252bdr5gur1ApLqCiqMpjOr8mV2gWBZudYZh04SlA%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1000&expw=1000&q=sound+icon&simid=608029041323030906&FORM=IRPRST&ck=1673B26B7B1D64B1CEADCF0DBD1108E5&selectedIndex=7&adlt=strict);
 }
 
 
