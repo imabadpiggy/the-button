@@ -39,18 +39,18 @@ button#centerButton {
     transition: opacity 5s, height 0.25s, width 0.25s;
 }
 
+button#sounds {
+    grid-area: bot-right;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=6tCkHAkI&id=4F8DD2964F9280236B809AE9378B8BA010F0653F&thid=OIP.6tCkHAkIBNNNX5e_jRGRrwHaHa&mediaurl=https%3a%2f%2fpngimg.com%2fuploads%2fsound%2fsound_PNG26.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ead0a41c090804d34d5f97bf8d1191af%3frik%3dP2XwEKCLizfpmg%26pid%3dImgRaw%26r%3d0&exph=1024&expw=1024&q=sound+icon&simid=607993728109656730&FORM=IRPRST&ck=3B71F4A2E9F76A588112ED15823D0549&selectedIndex=8&adlt=strict);
+    
+}
+
+
 body {
     background-size: 100%;
     background-position: center;
 }
 
-p#credits {
-    font-family: 'Nunito', sans-serif;
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    color: white;
-}
 
 h3 {
     position: absolute;
